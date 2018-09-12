@@ -1,0 +1,25 @@
+{
+  "name": "ebook-sales",
+  "version": "1.0.0",
+  "description": "simple node.js app to seel e-books by using stripe api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitkulhari26/ebook-sales.git"
+  },
+  "author": "amit kulhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitkulhari26/ebook-sales/issues"
+  },
+  "homepage": "https://github.com/amitkulhari26/ebook-sales#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^6.10.0"
+  }
+}
